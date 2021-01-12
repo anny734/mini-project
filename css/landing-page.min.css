@@ -4,6 +4,16 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:700
 }
+.logo{
+    height: 5rem;
+    width: 5rem;
+}
+.img-change{
+    /* width: fit-content; */
+    min-height:30rem;
+    /* background-size:100%; */
+    background-repeat: no-repeat;
+}
 header.masthead{
     position:relative;
     background-color:#343a40;
@@ -13,7 +23,13 @@ header.masthead{
     padding-bottom:8rem
 }
 header.masthead .overlay{
-    position:absolute;background-color:#212529;height:100%;width:100%;top:0;left:0;opacity:.3
+    position:absolute;
+    background-color:#212529;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    opacity:.3
 }
 header.masthead h1{
     font-size:2rem
@@ -24,7 +40,8 @@ header.masthead h1{
 .showcase .showcase-text{
     padding:3rem
 }
-.showcase .showcase-img{
+/* here image was there */
+.showcase{
     min-height:30rem;background-size:100%;
     background-repeat: no-repeat;
 }
