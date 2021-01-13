@@ -1,0 +1,189 @@
+{
+  "ent": [
+    {
+      "question": "Who is the most followed person on instagram?",
+      "Answer": "Cristiano Ronaldo",
+      "option1": "Airana Grande",
+      "option2": "Kylie Jenner",
+      "option3": "Lionel Messi",
+      "weight": 1,
+      "id":"wqey"
+    },
+    {
+      "question": "Which of the following indian has won the oscar? ",
+      "Answer": "Satyajit Ray",
+      "option1": "Priyadarshan",
+      "option2": "Yash Chopra",
+      "option3": "Anurag Kashyap",
+      "weight": 1,
+      "id":"wqex"
+    },
+    {
+      "question": "Which is the highest grossing movie in india?",
+      "Answer": "Avengers:Endgame",
+      "option1": "Avengers:Infinity War",
+      "option2": "The Jungle Book",
+      "option3": "FF8",
+      "weight": 1,
+      "id":"wqet"
+    },
+    {
+      "question": "Which of the following indian actor has shared sliver screen with tom cruise?",
+      "Answer": "Anil Kapoor",
+      "option1": "Akshay Kumar",
+      "option2": "Anupam Kher",
+      "option3": "Irrfan Khan",
+      "weight": 1,
+      "id":"wqea"
+    },
+    {
+      "question": "Which of the following movie was released in theaters?",
+      "Answer": "Ramprasad ki tehrvi",
+      "option1": "Gulabo Sitabo",
+      "option2": "Laxmi bomb",
+      "option3": "Ludo",
+      "weight": 1,
+      "id":"wqei"
+    },
+    {
+      "question": "Who is the most followed person on instagram?",
+      "Answer": "Cristiano Ronaldo",
+      "option1": "Airana Grande",
+      "option2": "Kylie Jenner",
+      "option3": "Lionel Messi",
+      "weight": 1,
+      "id":"wqry"
+    },
+    {
+      "question": "Which of the following indian has won the oscar? ",
+      "Answer": "Satyajit Ray",
+      "option1": "Priyadarshan",
+      "option2": "Yash Chopra",
+      "option3": "Anurag Kashyap",
+      "weight": 1,
+      "id":"waey"
+    },
+    {
+      "question": "Which is the highest grossing movie in india?",
+      "Answer": "Avengers:Endgame",
+      "option1": "Avengers:Infinity War",
+      "option2": "The Jungle Book",
+      "option3": "FF8",
+      "weight": 1,
+      "id":"rqey"
+    },
+    {
+      "question": "Which of the following indian actor has shared sliver screen with tom cruise?",
+      "Answer": "Anil Kapoor",
+      "option1": "Akshay Kumar",
+      "option2": "Anupam Kher",
+      "option3": "Irrfan Khan",
+      "weight": 1,
+      "id":"whgy"
+    },
+    {
+      "question": "Which of the following movie was released in theaters?",
+      "Answer": "Ramprasad ki tehrvi",
+      "option1": "Gulabo Sitabo",
+      "option2": "Laxmi bomb",
+      "option3": "Ludo",
+      "weight": 1,
+      "id":"ghfu"
+    }
+  ],
+  
+  "lit": [
+    {
+      "question": "atoz",
+      "Answer": "Cristiano Ronaldo",
+      "option1": "Airana Grande",
+      "option2": "Kylie Jenner",
+      "option3": "Lionel Messi",
+      "weight": 1
+    },
+    {
+      "question": "Which of the following indian has won the oscar? ",
+      "Answer": "Satyajit Ray",
+      "option1": "Priyadarshan",
+      "option2": "Yash Chopra",
+      "option3": "Anurag Kashyap",
+      "weight": 1
+    },
+    {
+      "question": "Which is the highest grossing movie in india?",
+      "Answer": "Avengers:Endgame",
+      "option1": "Avengers:Infinity War",
+      "option2": "The Jungle Book",
+      "option3": "FF8",
+      "weight": 1
+    },
+    {
+      "question": "Which of the following indian actor has shared sliver screen with tom cruise?",
+      "Answer": "Anil Kapoor",
+      "option1": "Akshay Kumar",
+      "option2": "Anupam Kher",
+      "option3": "Irrfan Khan",
+      "weight": 1
+    },
+    {
+      "question": "Which of the following movie was released in theaters?",
+      "Answer": "Ramprasad ki tehrvi",
+      "option1": "Gulabo Sitabo",
+      "option2": "Laxmi bomb",
+      "option3": "Ludo",
+      "weight": 1
+    },
+    {
+      "question": "Who is the most followed person on instagram?",
+      "Answer": "Cristiano Ronaldo",
+      "option1": "Airana Grande",
+      "option2": "Kylie Jenner",
+      "option3": "Lionel Messi",
+      "weight": 1
+    },
+    {
+      "question": "Which of the following indian has won the oscar? ",
+      "Answer": "Satyajit Ray",
+      "option1": "Priyadarshan",
+      "option2": "Yash Chopra",
+      "option3": "Anurag Kashyap",
+      "weight": 1
+    },
+    {
+      "question": "Which is the highest grossing movie in india?",
+      "Answer": "Avengers:Endgame",
+      "option1": "Avengers:Infinity War",
+      "option2": "The Jungle Book",
+      "option3": "FF8",
+      "weight": 1
+    },
+    {
+      "question": "Which of the following indian actor has shared sliver screen with tom cruise?",
+      "Answer": "Anil Kapoor",
+      "option1": "Akshay Kumar",
+      "option2": "Anupam Kher",
+      "option3": "Irrfan Khan",
+      "weight": 1
+    },
+    {
+      "question": "Which of the following movie was released in theaters?",
+      "Answer": "Ramprasad ki tehrvi",
+      "option1": "Gulabo Sitabo",
+      "option2": "Laxmi bomb",
+      "option3": "Ludo",
+      "weight": 1
+    }
+  ],
+  "subject_data": [
+    {
+      "username": "abcd",
+      "subject_name": "lit",
+      "highest_score": "23",
+      "no_of_times_attempted": "3",
+      "total_ques": 12,
+      "max_marks": 12,
+      "id": 1
+    }
+  ],
+  "users": []
+}

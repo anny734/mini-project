@@ -1,0 +1,10 @@
+footer{
+    margin-bottom: auto;
+}
+body {
+    background: linear-gradient(to bottom right, #5bc0de, #ffffff);
+    background-repeat: no-repeat; }
+  
+  .headingWeb {
+    color: #025aa5;
+    text-align: center; }
