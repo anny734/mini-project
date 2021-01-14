@@ -30,7 +30,7 @@
     <!-- Bootstrap Autocomplete Plugin -->
     <script defer src="https://cdn.jsdelivr.net/gh/xcash/bootstrap-autocomplete@v2.3.7/dist/latest/bootstrap-autocomplete.min.js"></script>
    <!-- custom js -->
-    <script defer src="../js/index.js"></script>
+    <script defer src="../js/userdashboard.js"></script>
     <!-- custom css -->
     <link rel="stylesheet" href="../css/userdashboard.css">
 </head>
@@ -38,7 +38,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
-              <a class="navbar-brand" href="../Q2/index.html"> <img src="../images/abc.png" class="image-fluid imgLogo"> Welcome, User</a>
+              <a class="navbar-brand" href="../html/userdashboard.html"> <img src="../images/abc.png" class="image-fluid imgLogo"> Welcome, User</a>
              
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -52,19 +52,6 @@
                         <li class="nav-item">
                             <a class="nav-link mx-2" href="../html/performance.html">Performance</a>
                         </li>
-                           <!--  <li class="nav-item dropdown flex-fill">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <i class="fa fa-user me-2" aria-hidden="true"></i>Welcome, Admin
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                  <li><a class="dropdown-item" href="#">Show Profile</a></li>
-                                  <li><a class="dropdown-item" href="#">Change Password</a></li>
-                                  <li><hr class="dropdown-divider" /></li>
-                                  <li>
-                                    <a class="dropdown-item " href="#"><button class="btn btn-outline-info">Log Out</button></a>
-                                  </li>
-                                </ul>
-                          </li> -->
                             
                     <form class="d-flex ">
                       
@@ -92,10 +79,15 @@
                         <div class="card my-5 contains" id="entertainment">
 
                             <div class="row row-cols-sm-2">
-                                    <div class="col-md-4"><img src="../images/q3.jpg" class="card-img-top " alt="..."></div>
+                                    <div class="col-md-4"><img src="../images/entertainment.png" class="card-img-top " alt="..."></div>
                                         <div class="col-lg-8">
                                                 <p class="display-6 card-body category1"><strong><br>Entertainment</strong></p>
-                                                 <div class="hideEntMore"><a class="btn btn-info my-3 text-white" href="#">Start Quiz</a><button class="btn btn-primary my-3 mx-3" data-bs-toggle="modal" data-bs-target="#aqmodal">Highest Scorer</button></div>   
+                                                 <div class="hideEntMore">
+                                                  <button type="button" class="btn btn-info text-white btn-primary my-3 mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                    Start Quiz
+                                                  </button>
+                                                  <button class="btn btn-primary text-white my-3 mx-3" data-bs-toggle="modal" data-bs-target="#aqmodal">Highest Scorer</button>
+                                                  </div>   
                                         </div>
                                 </div>
                             </div>
@@ -105,10 +97,13 @@
                         <div class="card my-5 contains" id="GK">
 
                             <div class="row row-cols-sm-2">
-                                    <div class="col-md-4"><img src="../images/q3.jpg" class="card-img-top " alt="..."></div>
+                                    <div class="col-md-4"><img src="../images/gk.png" class="card-img-top " alt="..."></div>
                                         <div class="col-lg-8">
                                                 <p class="display-6 card-body category1"><strong>General<br>Knowledge</strong></p>
-                                                 <div class="hideGKMore"><a class="btn btn-info my-3 text-white" href="#">Start Quiz</a><button class="btn btn-primary my-3 mx-3" data-bs-toggle="modal" data-bs-target="#aqmodal">Highest Scorer</button></div>   
+                                                 <div class="hideGKMore"><button type="button" class="btn btn-info text-white btn-primary my-3 mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                  Start Quiz
+                                                </button>
+                                                <button class="btn btn-primary my-3 mx-3" data-bs-toggle="modal" data-bs-target="#aqmodal">Highest Scorer</button></div>   
                                         </div>
                                 </div>
                             </div>
@@ -118,10 +113,14 @@
                         <div class="card my-5 contains" id="Sports">
 
                             <div class="row row-cols-sm-2">
-                                    <div class="col-md-4"><img src="../images/q3.jpg" class="card-img-top " alt="..."></div>
+                                    <div class="col-md-4"><img src="../images/sports.png" class="card-img-top " alt="..."></div>
                                         <div class="col-lg-8">
                                                 <p class="display-6 card-body category1"><strong><br>Sports</strong></p>
-                                                 <div class="hideSportsMore"><a class="btn btn-info my-3 text-white" href="#">Start Quiz</a><button class="btn btn-primary my-3 mx-3" data-bs-toggle="modal" data-bs-target="#aqmodal">Highest Scorer</button></div>   
+                                                 <div class="hideSportsMore"><button type="button" class="btn btn-info text-white btn-primary my-3 mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                  Start Quiz
+                                                </button>
+                                                <button class="btn btn-primary my-3 mx-3" data-bs-toggle="modal" data-bs-target="#aqmodal">Highest Scorer</button></div>   
+                                                 
                                         </div>
                                 </div>
                             </div>
@@ -131,10 +130,13 @@
                         <div class="card my-5 contains" id="Computer">
 
                             <div class="row row-cols-sm-2">
-                                    <div class="col-md-4"><img src="../images/q3.jpg" class="card-img-top " alt="..."></div>
+                                    <div class="col-md-4"><img src="../images/computer.png" class="card-img-top " alt="..."></div>
                                         <div class="col-lg-8">
                                                 <p class="display-6 card-body category1"><strong><br>Computer</strong></p>
-                                                 <div class="hideCompMore"><a class="btn btn-info my-3 text-white" href="#">Start Quiz</a><button class="btn btn-primary my-3 mx-3" data-bs-toggle="modal" data-bs-target="#aqmodal">Highest Scorer</button></div>   
+                                                 <div class="hideCompMore"><button type="button" class="btn btn-info text-white btn-primary my-3 mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                  Start Quiz
+                                                </button>
+                                                <button class="btn btn-primary my-3 mx-3" data-bs-toggle="modal" data-bs-target="#aqmodal">Highest Scorer</button></div>   
                                         </div>
                                 </div>
                             </div>
@@ -144,10 +146,13 @@
                         <div class="card my-5 contains" id="Literature">
 
                             <div class="row row-cols-sm-2">
-                                    <div class="col-md-4"><img src="../images/q3.jpg" class="card-img-top " alt="..."></div>
+                                    <div class="col-md-4"><img src="../images/literature.png" class="card-img-top " alt="..."></div>
                                         <div class="col-lg-8">
                                                 <p class="display-6 card-body category1"><strong><br>Literature</strong></p>
-                                                 <div class="hideLitMore"><a class="btn btn-info my-3 text-white" href="#">Start Quiz</a><button class="btn btn-primary my-3 mx-3" data-bs-toggle="modal" data-bs-target="#aqmodal">Highest Scorer</button></div>   
+                                                 <div class="hideLitMore"><button type="button" class="btn btn-info text-white btn-primary my-3 mx-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                  Start Quiz
+                                                </button>
+                                                <button class="btn btn-primary my-3 mx-3" data-bs-toggle="modal" data-bs-target="#aqmodal">Highest Scorer</button></div>   
                                         </div>
                                 </div>
                             </div>
@@ -162,13 +167,13 @@
            
  
    
-        <!-- add question modal -->
+        <!-- Highest Scorer modal -->
 
         <div class="modal fade" id="aqmodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
               <div class="modal-content">
                   <div class="modal-header card-header bg-primary text-white">
-                      <!-- Here category name will come -->
+                      <!-- Here category name will come in H5 -->
                       <h5 class="modal-title" id="addQuesLabel"></h5>
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
@@ -182,13 +187,40 @@
             </div>
           </div>
         </div>
-    
+        <!-- Modal for start quiz button -->
+        <div class="modal fade" id="exampleModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="startbutton" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-primary">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="col-sm col-md-8 col-lg-8 mb-3">
+                  <p>1. Quiz is not proctored.<br>
+                    2. The quiz will be of 10 minutes duration.<br>
+                    3. You can attempt the quiz only once.<br>
+                    4. There are a total 10 questions.<br>
+                    5. Each question carries one mark. No negative marking for wrong answers.<br>
+                    6. Questions have single Choice. 
+                    </p>
+
+              </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" onclick="startQuiz()">Start Quiz</button>
+              </div>
+            </div>
+          </div>
+        </div>
 
    
 
 
       <!-- Footer -->
-  <footer class="footer bg-light">
+  <footer class="footer bg-dark">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 h-100 text-center text-lg-left my-auto">

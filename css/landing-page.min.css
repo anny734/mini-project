@@ -41,7 +41,7 @@ header.masthead h1{
     padding:3rem
 }
 /* here image was there */
-.showcase{
+.showcase , .showcase-img{
     min-height:30rem;background-size:100%;
     background-repeat: no-repeat;
 }
