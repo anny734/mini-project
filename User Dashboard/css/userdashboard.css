@@ -45,10 +45,6 @@ label.error.fail-alert {
 input.valid.success-alert {
   color: green; }
 
-.bottom-bar.space {
-  visibility: hidden;
-  /* hides the element but keeps it space*/ }
-
 @media screen and (max-width: 480px) {
   .imgLogo {
     width: 15vw;
