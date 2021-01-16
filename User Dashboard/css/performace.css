@@ -1,5 +1,16 @@
 footer{
-    margin-top: 70%;
+    margin-top: 41%;
+}
+.mytable{
+  height:26rem;
+  width:120rem;
+  margin-top:12%;
+  background-color: wheat;
+}
+td, th{
+  text-align: center;
+  font-size: xx-large;
+  border: 1px solid black;
 }
 
 .imgLogo {

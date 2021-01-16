@@ -52,22 +52,7 @@
                         <li class="nav-item">
                             <a class="nav-link mx-2" href="#">Performance</a>
                         </li>
-                            <li class="nav-item dropdown flex-fill">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <i class="fa fa-user me-2" aria-hidden="true"></i>Welcome, Admin
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                  <li><a class="dropdown-item" href="#">Show Profile</a></li>
-                                  <li><a class="dropdown-item" href="#">Change Password</a></li>
-                                  <li><hr class="dropdown-divider" /></li>
-                                  <li>
-                                    <a class="dropdown-item " href="#"><button class="btn btn-outline-info">Log Out</button></a>
-                                  </li>
-                                </ul>
-                          </li>
-                            
-                    <form class="d-flex ">
-                      
+                <form class="d-flex "></form> 
                       <button class="btn btn-outline-info text-white" type="submit"><strong>Logout</strong></button>
                     </form>
                   
@@ -76,7 +61,52 @@
         </nav>
     </header>
 
-    
+    <div class="container mytable">
+      <table class="table">
+          <thead>
+            <tr>
+              <th scope="col-sm">Sr.No</th>
+              <th scope="col-sm">Test Category</th>
+              <th scope="col-sm">Date</th>
+              <th scope="col-sm">Time</th>
+              <th scope="col-sm">Total marks</th>
+              <th scope="col-sm">Marks obtained</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <!-- this rows are for appending the data from backend -->
+              <th scope="row srno"></th>
+              <td id="category"></td>
+              <td id="testDate"></td>
+              <td id="testTime"></td>
+              <td id="myMarks"></td>
+              <td id="total"></td>
+            </tr>
+            <!-- this is hard coded values -->
+            <!-- <tr>
+              <th scope="row">1</th>
+              <td>Entertainment</td>
+            </tr>
+              <tr>
+              <th scope="row">2</th>
+              <td>General Knowledge</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Sports</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Computer</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>Literature</td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
 
    
 
